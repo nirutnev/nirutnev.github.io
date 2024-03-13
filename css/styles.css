@@ -1,0 +1,70 @@
+body {
+    background: white;
+  }
+  
+  @font-face {
+    font-family: Oswald;
+    src: url('./fonts/Oswald-VariableFont_wght.ttf');
+  }
+  
+  /* .header img {
+    padding: 10px;
+    margin: 10px;
+  } */
+  
+  .header {
+    padding: 10px;
+    background-image: url(img/hahaha-header-grain.png);
+      height: 12em;
+  }
+  
+  
+  h1 {
+    font-size: 3em;
+    font-family: Oswald;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.6em;
+    font-family: Oswald;
+    color: black;
+    text-align: center;
+  }
+  
+  #section1 {
+    background-color: white;
+  }
+  
+  #section1 h1 {
+    color: black;
+  }
+  
+  #section2 {
+    background-color: gray;
+  }
+  
+  #section2 h1 {
+    color: black;
+  }
+  
+  #section3 {
+    background-color: black;
+  }
+  
+  #section3 h1 {
+    color: white;
+  }
+  
+  #section4 {
+    text-align: center;
+    height: 5em;
+  }
+  
+  #section5 {
+    background-image: url(img/hahaha-header-grain.png);
+  }
+  
+  #section5 h1 {
+    color: white;
+  }
