@@ -7,7 +7,7 @@ new simpleParallax(parallax1, {
 
 const parallax2 = document.getElementsByClassName('parallax2');
 new simpleParallax(parallax2, {
-    scale: 0.9,
+    scale: 1.0,
     delay: 1,
 });
 
