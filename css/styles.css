@@ -4,7 +4,7 @@ body {
   
   @font-face {
     font-family: Oswald;
-    src: url('./fonts/Oswald-VariableFont_wght.ttf');
+    src: url('fonts/Oswald-VariableFont_wght.ttf');
   }
   
   /* .header img {
@@ -14,7 +14,7 @@ body {
   
   .header {
     padding: 10px;
-    background-image: url(img/hahaha-header-grain.png);
+    background-image: url('img/odeir1.jpg');
       height: 12em;
   }
   
@@ -55,14 +55,14 @@ body {
   #section3 h1 {
     color: white;
   }
-  
+
   #section4 {
-    text-align: center;
-    height: 5em;
+    background-image: url('img/odeir2.jpg');
   }
   
   #section5 {
-    background-image: url(img/hahaha-header-grain.png);
+    text-align: center;
+    height: 5em;
   }
   
   #section5 h1 {
