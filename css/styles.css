@@ -4,67 +4,98 @@ body {
   
   @font-face {
     font-family: Oswald;
-    src: url('fonts/Oswald-VariableFont_wght.ttf');
+    src: url('/fonts/Oswald-VariableFont_wght.ttf');
   }
-  
-  /* .header img {
-    padding: 10px;
-    margin: 10px;
-  } */
-  
-  .header {
-    padding: 10px;
-    background-image: url('img/odeir1.jpg');
-      height: 12em;
+    
+  .arte1 {
+    background-image: url('/img/odeir2.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
   }
-  
+
+  .arte2 {
+    background-image: url('/img/odeir1.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+  #header {
+    padding: 10px;
+    height: 12em;
+    background-color: black;
+  }
+    
+  #header h1 {
+    color: white;
+  }
   
   h1 {
+    font-size: 6em;
+    font-family: Oswald;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 3em;
+    font-family: Oswald;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    font-family: Oswald;
+    text-align: center;
+  }
+
+  h2 {
     font-size: 3em;
     font-family: Oswald;
     text-align: center;
   }
   
   p {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-family: Oswald;
     color: black;
     text-align: center;
   }
   
   #section1 {
+    padding: 4em;
     background-color: white;
   }
   
-  #section1 h1 {
+  #section1 h2 {
     color: black;
   }
   
   #section2 {
-    background-color: gray;
-  }
-  
-  #section2 h1 {
-    color: black;
-  }
-  
-  #section3 {
+    padding: 4em;
     background-color: black;
   }
   
-  #section3 h1 {
+  #section2 h2 {
     color: white;
   }
-
-  #section4 {
-    background-image: url('img/odeir2.jpg');
+  
+  #section3 {
+    padding: 4em;
+    background-color: white;
   }
   
-  #section5 {
+  #section3 h2 {
+    color: black;
+  }
+  
+  #footer {
+    padding: 4em;
+    background-color: black;
     text-align: center;
-    height: 5em;
   }
   
-  #section5 h1 {
+  #footer h3 {
+    padding: 1em;
     color: white;
   }
