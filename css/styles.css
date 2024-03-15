@@ -1,95 +1,95 @@
 body {
-    background: white;
-  }
-  
-  @font-face {
-    font-family: Oswald;
-    src: url('/fonts/Oswald-VariableFont_wght.ttf');
-  }
-    
-  .arte1 {
-    background-image: url('/img/odeir2.jpg');
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; 
-  }
+  background: white;
+}
 
-  .arte2 {
-    background-image: url('/img/odeir1.jpg');
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; 
-  }
+@font-face {
+  font-family: Oswald;
+  src: url('/fonts/Oswald-VariableFont_wght.ttf');
+}
+  
+.arte1 {
+  background-image: url('/img/odeir2.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
 
-  #header {
-    padding: 10px;
-    /* height: 12em; */
-    background-color: black;
-  }
-    
-  #header h1 {
-    color: white;
-  }
-  
-  h1 {
-    font-size: 6em;
-    font-family: Oswald;
-    text-align: center;
-  }
+.arte2 {
+  background-image: url('/img/odeir1.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
 
-  h2 {
-    font-size: 3em;
-    font-family: Oswald;
-    text-align: center;
-  }
+#header {
+  padding: 2em;
+  /* height: 12em; */
+  background-color: black;
+}
+  
+#header h1 {
+  color: white;
+}
 
-  h3 {
-    font-size: 1.1em;
-    font-family: Oswald;
-    text-align: center;
-  }
-  
-  p {
-    font-size: 1.4em;
-    font-family: Oswald;
-    color: black;
-    text-align: center;
-  }
-  
-  #section1 {
-    padding: 4em 4em;
-    background-color: white;
-  }
-  
-  #section1 h2 {
-    color: black;
-  }
-  
-  #section2 {
-    padding: 1em 1em;
-    background-color: black;
-  }
-  
-  #section2 h2 {
-    color: white;
-  }
-  
-  #section3 {
-    padding: 4em 4em;
-    background-color: white;
-  }
-  
-  #section3 h2 {
-    color: black;
-  }
-  
-  #footer {
-    padding: 4em;
-    background-color: black;
-    text-align: center;
-  }
-  
-  #footer h3 {
-    padding: 1em;
-    color: #333;
-  }
+h1 {
+  font-size: 6em;
+  font-family: Oswald;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: Oswald;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-family: Oswald;
+  text-align: center;
+}
+
+p {
+  font-family: Oswald;
+  color: black;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+#section1 {
+  padding: 4em 1em;
+  background-color: white;
+}
+
+#section1 h2 {
+  color: black;
+}
+
+#section2 {
+  padding: 4em 1em;
+  background-color: black;
+}
+
+#section2 h2 {
+  color: white;
+}
+
+#section3 {
+  padding: 4em 1em;
+  background-color: white;
+}
+
+#section3 h2 {
+  color: black;
+}
+
+#footer {
+  padding: 4em;
+  background-color: black;
+  text-align: center;
+}
+
+#footer h3 {
+  padding: 1em;
+  color: #333;
+}
